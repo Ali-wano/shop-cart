@@ -1,0 +1,71 @@
+.testimonials{
+    /* height: 100vh; */
+    padding: 40px 70px;
+}
+.t-wrapper{
+    display: flex;
+}
+.t-left{
+    flex: 1;
+}
+.t-right{
+    flex: 1;
+    padding-top: 90px;
+}
+.t-left p{
+    margin-top: 20px;
+    width: 80%;
+    line-height: 2rem;
+}
+.border{
+    width: 40%;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #59b256;
+     /* border-bottom: 2px solid #59b256; */
+}
+.t-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.t-card-info{
+    width: 30%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.274) 0px 2px 8px 0px;
+    padding: 25px;
+    margin: 20px !important;
+    position: relative;
+}
+.t-card-info img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.t-card-info:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(0.8);
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .t-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .t-card-info{
+        width: 100%;
+    }
+    .t-left p{
+        width: 100%;
+    }
+    .border{
+        width: 100%;
+    }
+    .testimonials{
+        padding: 40px 30px;
+    }
+}

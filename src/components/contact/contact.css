@@ -1,0 +1,99 @@
+.contact{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.c-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-wrapper div{
+    flex: 1;
+}
+.c-left h1{
+    width: 80%;
+    font-size: 60px;
+}
+
+.c-info-item span{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    font-weight: 300;
+    width: 70%;
+}
+.c-info-item svg{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.c-desc{
+    font-weight: 200;
+}
+form{
+    margin-top: 20px;
+}
+input{
+    width: 50%;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+}
+form button{
+    border: none;
+    padding: 15px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .c-wrapper{
+        text-align: center;
+    }
+    .c-wrapper h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .c-info-item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-info-item span{
+        margin: 20px 0;
+    }
+    .c-desc{
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    input{
+        width: 100%;
+    }
+    .contact{
+        height: fit-content;
+    }
+}
