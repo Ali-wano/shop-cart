@@ -28,7 +28,7 @@ function Intro(){
            </div>
            <div className="intro-right">
                <div className="intro-bg"></div>
-               {/* <img src="./img/wano.png" alt="" /> */}
+               <img src="./img/wano-ali-07.png" alt="" />
            </div>
         </div>
     )

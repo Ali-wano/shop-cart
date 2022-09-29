@@ -3,56 +3,56 @@
         {
             id: Math.random * 300,
             projectDsec: "Simple react todo application ",
-            projectLink: "https://",
+            projectLink: "https://wu4y4z.csb.app/",
             imgSrc: "./img/todo.png",
             projectName: "React Todo Application"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://qx82b.csb.app/",
             imgSrc: "./img/xando.png",
-            projectName:"Simple React Music Player"
+            projectName:"Simple React Tic tac toe Game"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://tmjqt.csb.app/",
             imgSrc: "./img/music app.png",
-            projectName:"React Tic Tac Toe Game"
+            projectName:"Simple React Music Application"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://buuka.app",
             imgSrc: "./img/music app.png",
-            projectName:"React Admin Dashboard Panel"
+            projectName:"Buuka React Market Place"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://react-eyzqby.stackblitz.io",
             imgSrc: "./img/music app.png",
             projectName:"React Notepad Application"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://idealdabsters.com",
             imgSrc: "./img/music app.png",
-            projectName:"React Url Shortner Application"
+            projectName:"Hr Consulting Firm Website"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://jollyworker.com",
             imgSrc: "./img/music app.png",
-            projectName:"React Social Media Application"
+            projectName:"Nigeria No 1 Online Product Service Web app"
         },
         {
             id: Math.random * 300,
             projectDsec: "lorem ispum is simply dummy text ",
-            projectLink: "https://",
+            projectLink: "https://wano-e.netlify.app",
             imgSrc: "./img/f-ecommerce.png",
             projectName:"Simple React Shopcart Application"
         },

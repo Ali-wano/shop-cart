@@ -9,7 +9,7 @@ import Testimonials from './components/testimonials/testimonials';
 import Toggle from './components/toggle/toggle';
 import { ThemeContext } from './context';
 import Footer from './components/footer/footer';
-import Early from "./song/early.mp3"
+// import Early from "./song/early.mp3"
 
 function App() {
   const Theme = useContext(ThemeContext)
