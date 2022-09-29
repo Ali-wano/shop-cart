@@ -16,7 +16,7 @@ function App() {
   const darkMode = Theme.state.darkMode
   return (
     <div className="App" style={{backgroundColor: darkMode ?  "#222" : "white", color: darkMode && "white"}}>
-                  <audio src={Early} autoPlay loop></audio>
+                  {/* <audio src={Early} autoPlay loop></audio> */}
       <Toggle/>
       <Intro/>
       <Brands/>

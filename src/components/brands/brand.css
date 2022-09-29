@@ -11,14 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .brands img{
     width: 120px;
     height: 100%;
     margin: 20px;
-    background-color: white;
-    box-shadow: rgba(99, 99, 99, 0.178) 0px 2px 8px 0px;
+    /* background-color: white; */
+    /* box-shadow: rgba(99, 99, 99, 0.178) 0px 2px 8px 0px; */
     cursor: pointer;
     padding: 10px;
 }
@@ -35,5 +35,8 @@
     }
     .brands img{
         width: 50%;
+    }
+    .brand h3{
+        display: none;
     }
 }

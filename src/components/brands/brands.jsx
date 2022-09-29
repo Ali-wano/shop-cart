@@ -8,27 +8,27 @@ function Brands() {
     const brands = [
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-1.png"
+            imgSrc: "https://www.softcitygroup.com/welcome/wp-content/uploads/2019/05/nlogosft-1.png"
         },
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-2.png"
+            imgSrc: "./img/black-logo-07.png"
         },
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-3.png"
+            imgSrc: "https://www.poisenigeria.org/wp-content/uploads/2021/04/poise-nigeria-logo.png"
         },
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-4.png"
+            imgSrc: "./img/Asf Web App-07.png"
         },
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-5.png"
+            imgSrc: "./img/ishaya-07.png"
         },
         {
             id: Math.random() * 300,
-            imgSrc: "./img/campany-6.png"
+            imgSrc: "./img/palz.png"
         },
     ]
     return(

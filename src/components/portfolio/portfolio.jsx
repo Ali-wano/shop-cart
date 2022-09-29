@@ -8,10 +8,11 @@ function Portfolio({image, desc, link, projectName}) {
                <div className="p-browser"></div>
                <div className="p-browser"></div>
            </div>
-           <img src={image} alt="" className="p-Img" />
-           {/* <h2>{projectName}</h2> */}
            <div className="overlay">
-            <p>{projectName}</p>
+                       {/* <img src={image} alt="" className="p-Img" /> */}
+
+           <h2>{projectName}</h2>
+            <p>{desc}</p>
             <a href={link} target="_blank" rel="noreferrer">Visit Site</a>
            </div>
         </div>

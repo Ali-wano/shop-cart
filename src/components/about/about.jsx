@@ -12,15 +12,14 @@ function About() {
             </div>
             <div className="about-right">
                 <h1 className="a-title">About Me</h1>
-                    <p className="a-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non labore quod<br/> nobis nemo hic iure, maiores.</p>
-            <p className="a-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem molestias debitis explicabo, quos optio voluptatem, incidunt perferendis aliquam sequi in placeat eos minus enim id deleniti? Consequuntur, facilis nobis.
-            </p>
+                    <p className="a-sub">I am a Computer Science Grad Student at Ekobits Academy. I enjoy problem<br/>-solving and coding Always strive to bring 100% to the work I do. </p>
+            <p className="a-desc" style={{lineHeight: "2rem"}}>
+            I have worked on technologies like PHP, React, Bootstrap, MySQL, Wordpress, HTML5, CSS, Figma, Adobe photoshop, illustrator during my training. I have 4+ years of professional work experience which helped me strengthen my experience in React, Javascript, and Css. I am passionate about developing complex applications that solve real-world problems impacting millions of users.            </p>
             <div className="a-award">
                 <img src="./img/Certificate.png" alt="" />
                 <div className="award-text">
-                    <h4>Web Developer 2021</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur<br/> adipisicing elit. Cumque, optio.</p>
+                    <h4>Web Developer 2018</h4>
+                    <p>Certified frontend web developer<br/> in the year 2018.</p>
                 </div>
             </div>
             </div>

@@ -2,7 +2,7 @@
  export  const imageList = [
         {
             id: Math.random * 300,
-            projectDsec: "lorem ispum is simply dummy text ",
+            projectDsec: "Simple react todo application ",
             projectLink: "https://",
             imgSrc: "./img/todo.png",
             projectName: "React Todo Application"
